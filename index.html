@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/logo.svg" />
+    <title>Add Photo</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Header nav -->
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a href="#indtroduction">
+              <img src="./img/logo.svg" class="logo_img" />
+            </a>
+          </div>
+          <ul class="nav">
+            <li>
+              <a href="#portfolio">Портфолио</a>
+            </li>
+            <li>
+              <a href="#gallery">Виды работ</a>
+            </li>
+            <li>
+              <a href="#about_fotosudio">О фотостудии</a>
+            </li>
+            <li>
+              <a href="#price">Услуги и цены</a>
+            </li>
+            <li>
+              <a href="#mapSection">Контакты</a>
+            </li>
+          </ul>
+          <div class="header_contact">
+            <a href="#" class="header_contact_phone_btn">ОБРАТНЫЙ ЗВОНОК</a>
+            <a href="tel:+7 (499) 344 60 91" class="header_contact_phone"
+              >+7 (499) 344 60 91</a
+            >
+            <a href="tel:+7 (499) 344 60 91" class="fa_solid_phone"
+              ><i class="fa-solid fa-phone"></i
+            ></a>
+
+            <i class="fa-solid fa-align-justify" id="burger"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Responsive Header for foto studio -->
+    <div id="mini_header_container" class="mini_header_container">
+      <ul>
+        <li>
+          <a href="#portfolio">Портфолио</a>
+        </li>
+        <li>
+          <a href="#gallery">Виды работ</a>
+        </li>
+        <li>
+          <a href="#about_fotosudio">О фотостудии</a>
+        </li>
+        <li>
+          <a href="#price">Услуги и цены</a>
+        </li>
+        <li>
+          <a href="#mapSection">Контакты</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Indtroduction section -->
+
+    <section class="indtroduction" id="indtroduction">
+      <video src="./img/video/vid.mp4" id="video" loop autoplay></video>
+      <div class="indtroduction_overlay">
+        <div class="container">
+          <div class="indtroduction_text">
+            <h1 data-aos="fade-right">Профессиональная фотосессия в студии</h1>
+            <h3 data-aos="fade-right" data-aos-delay="100">
+              Наша фотостудия позволит исполнить ваши мечты
+            </h3>
+            <p data-aos="fade-right" data-aos-delay="150">
+              Фотографии стали неотъемлемой частью нашей жизни. Это теперь не
+              просто памятные снимки в альбомах, ныне фото становиться способом
+              понравиться окружающим, получить восхищение, заявить о себе всему
+              миру. Выбор правильной фотостудии занимает далеко не последнее
+              место в получение фотографий. И мы с точностью заявляем, что нашей
+              фотостудией вы останетесь довольны и еще не раз захотите
+              возвращаться к нам.
+            </p>
+            <button class="btn">Получить консультацию</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Studio works slider -->
+    <section id="portfolio" class="section__work_slider">
+      <h2 class="section_title">Наши работы</h2>
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./img/Pic left.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Pic Right.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Pic Right.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Pic left.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Pic Right.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Pic left.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Pic Right.png" />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- Location for foto studio -->
+
+    <section id="location" class="section_location_slider">
+      <h2 class="section_title">Наши локации</h2>
+      <div class="container">
+        <div class="location_swiper swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/image 795.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/image 796.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/image 798.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/image 795.png" />
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <div class="section_location_slider_choose_btn"></div>
+      <button class="btn">выбрать локацию</button>
+    </section>
+
+    <!-- Photo Galery -->
+
+    <section id="gallery" class="photos_section">
+      <div class="container">
+        <h2 class="section_title">Виды услуг</h2>
+        <div class="photos_section_container">
+          <div class="photo photo_1">
+            <img src="./img/photo1.png" />
+            <div class="photo_sloy">
+              <h3>Семейная фотосессия (дети +14)</h3>
+            </div>
+          </div>
+          <div class="photo photo_2">
+            <img src="./img/photo2.png" />
+
+            <div class="photo_sloy">
+              <h3>Фотосессия Лукбук</h3>
+            </div>
+          </div>
+          <div class="photo photo_3">
+            <img src="./img/photo3.png" />
+            <div class="photo_sloy">
+              <h3>Фотосессия Лукбук</h3>
+            </div>
+          </div>
+          <div class="photo photo_4">
+            <img src="./img/photo4.png" />
+            <div class="photo_sloy">
+              <h3>Фотосессия Лукбук</h3>
+            </div>
+          </div>
+          <div class="photo photo_5">
+            <img src="./img/photo5.png" />
+            <div class="photo_sloy">
+              <h3>Фотосессия с животными</h3>
+            </div>
+          </div>
+          <div class="photo photo_6">
+            <img src="./img/photo6.png" />
+            <div class="photo_sloy">
+              <h3>Фотосессия для девушек</h3>
+            </div>
+          </div>
+          <div class="photo photo_7">
+            <img src="./img/photo7.png" />
+            <div class="photo_sloy">
+              <h3>Парная фотосессия</h3>
+            </div>
+          </div>
+          <div class="photo photo_9">
+            <img src="./img/photo9.png" />
+            <div class="photo_sloy">
+              <h3>Фотосессия для беременных</h3>
+            </div>
+          </div>
+          <div class="photo photo_10">
+            <img src="./img/photo10.png" />
+            <div class="photo_sloy">
+              <h3>Групповая фотосессия</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps for fotos -->
+
+    <section class="steps_section">
+      <div class="container">
+        <h2 class="section_title">Этапы работ</h2>
+        <div class="steps_section_relative">
+          <div class="steps_section_container">
+            <div class="step_card step_card_first">
+              <h2 class="step_card_title">Заявка</h2>
+              <p class="step_card_desc">
+                Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще
+                этих мягких.
+              </p>
+              <h3 class="step_card_number">1</h3>
+            </div>
+            <div class="step_card step_card_second">
+              <h2 class="step_card_title">Бронь</h2>
+              <p class="step_card_desc">
+                Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще
+                этих мягких.
+              </p>
+              <h3 class="step_card_number">2</h3>
+            </div>
+            <div class="step_card step_card_third">
+              <h2 class="step_card_title">Съёмка</h2>
+              <p class="step_card_desc">
+                Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще
+                этих мягких.
+              </p>
+              <h3 class="step_card_number">3</h3>
+            </div>
+            <div class="step_card step_card_fourth">
+              <h2 class="step_card_title">Составление Технического задания</h2>
+              <p class="step_card_desc">
+                Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще
+                этих мягких.
+              </p>
+              <h3 class="step_card_number">4</h3>
+            </div>
+            <div class="step_card step_card_fifth">
+              <h2 class="step_card_title">Готовые фото</h2>
+              <p class="step_card_desc">
+                Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще
+                этих мягких.
+              </p>
+              <h3 class="step_card_number">5</h3>
+            </div>
+          </div>
+          <div class="steps_section_relative_bg_image">
+            <img src="./img/bg2.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Текстовый блок 1 -->
+
+    <section id="about_fotosudio" class="text_section">
+      <div class="container">
+        <h2>Фотостудия для любых идейных фотоссесий</h2>
+        <div class="text_section_container" id="text_section_container">
+          <p class="text_section_line_clamp">
+            Воплотите мечту с нашей фотостудией и приобретите красивые,
+            уникальные, качественные фотографии, выбрав один из наших залов. А
+            их, -на секундочку, -аж семь штук. Каждый наш зал оборудован
+            интерьером и профессиональным оборудованием, и подойдет для любой
+            фотоссесии, а мы
+          </p>
+          <div id="text_section_addition_info" id="text_section_addition">
+            <p class="text_section_line_clamp">
+              хотим рассказать вам о все подробнее. Какие идеи можно воплотить?
+              • Фотоссесия Love Story Мечтаете показать всему миру вашу историю
+              создания любви или хранить снимки в памятном альбоме, то это
+              фотоссесия отлично подойдет вам.
+            </p>
+
+            <p class="text_section_line_clamp">
+              Расскажите вашу историю с любимым человеком в фотографиях в
+              необычном месте. • Семейная фотоссесия Семья — это самое главное в
+              жизни любого человека. Хотите повесить фотографии в вашем уютном
+              доме, смотреть на них и испытывать прилив нежности, значит
+              семейная фотоссесия в нашей фотостудии станет отличным вариантом.
+              ...
+            </p>
+            <p class="text_section_line_clamp">
+              • Фотоссесия для беременных девушек Желаете сохранить воспоминания
+              о прекрасном времени в жизни каждой женщины? Наши локации помогут
+              вам организовать и воссоздать в фотографиях любовь матери и еще не
+              родившегося ребенка.
+            </p>
+            <p class="text_section_line_clamp">
+              • Фотоссесия «Деловой стиль». Вы не из тех, кто любит яркие
+              чувства, эмоции и считаете себя сдержанным. Вам нужны фотографии,
+              где вы раскроетесь как профессионал, произведете впечатление как
+              деловой человек. Эта фотоссесия станет вашим правильным решением.
+              • Фотоссесия для девушек и парней. Хочешь стать кем-то другим?
+              Или, наоборот, показать свое «я»? Фотоссесия для девушек или
+              парней поможет воплотить любые идеи. Помимо вышеперечисленного
+              есть и другие стили фотоссесий. Вы самостоятельно выбираете, а
+              наши фотозалы помогают вам и вдохновляют.
+            </p>
+          </div>
+        </div>
+        <div class="text_section_button" id="text_section_button">
+          <h4>Подробнее</h4>
+          <svg
+            width="25"
+            height="14"
+            viewBox="0 0 25 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23 2L13.2338 11.6984C12.8288 12.1005 12.1721 12.1005 11.7671 11.6984L2 2"
+              stroke="#E97522"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Стоимость фотосесии -->
+
+    <section id="price" class="price_section">
+      <div class="container">
+        <h2 class="section_title">Стоимость фотосесии</h2>
+        <div class="price_section_card_container">
+          <div class="price_section_card price_section_card_first">
+            <div class="price_section_card_header">
+              <h2>MINI</h2>
+              <h3><span>2500</span> ₽</h3>
+              <p>/ 1 локация</p>
+            </div>
+            <div class="price_section_card_body">
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Длительность — 30 минут</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Исходники — До 100 штук</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Ретушь — 4 фото</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Аренда фотостудии — Бесплатно</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Любой образ</h2>
+              </div>
+            </div>
+            <div class="price_section_card_additional_text">
+              <h4>Дополнительные услуги</h4>
+              <div class="price_section_card_additional_text_btn_container">
+                <div class="price_section_card_additional_text_btn">
+                  <h2>Помощь в позировании</h2>
+                </div>
+                <div class="price_section_card_additional_text_btn">
+                  <h2>Визажист + 2000 ₽</h2>
+                </div>
+                <div class="price_section_card_additional_text_btn">
+                  <h2>Дополнительная ретушь фото — 1 шт. / 250 ₽</h2>
+                </div>
+              </div>
+            </div>
+            <button class="btn">Забронировать</button>
+            <div
+              class="price_section_card_ball price_section_card_ball_1"
+            ></div>
+            <div
+              class="price_section_card_ball price_section_card_ball_2"
+            ></div>
+          </div>
+          <div class="price_section_card price_section_card_second">
+            <div class="price_section_card_header">
+              <h2>STANDART</h2>
+              <h3><span>5000</span> ₽</h3>
+              <p>/ 2 локации</p>
+            </div>
+            <div class="price_section_card_body">
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Длительность — 1 час 20 минут</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Исходники — До 200 штук</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Ретушь — 8 фото</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Аренда фотостудии — Бесплатно</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Любой образ</h2>
+              </div>
+            </div>
+            <div class="price_section_card_additional_text">
+              <h4>Помощь в позировании</h4>
+              <div class="price_section_card_additional_text_btn_container">
+                <div class="price_section_card_additional_text_btn">
+                  <h2>Помощь в позировании</h2>
+                </div>
+                <div class="price_section_card_additional_text_btn">
+                  <h2>Визажист + 2000 ₽</h2>
+                </div>
+                <div class="price_section_card_additional_text_btn">
+                  <h2>Дополнительная ретушь фото — 1 шт. / 250 ₽</h2>
+                </div>
+              </div>
+            </div>
+            <button class="btn">Забронировать</button>
+            <div class="price_section_card_ball"></div>
+            <div class="price_section_card_ball2"></div>
+          </div>
+          <div class="price_section_card price_section_card_third">
+            <div class="price_section_card_header">
+              <h2>MAXI</h2>
+              <h3>N ₽</h3>
+              <p>/ Максимальное количество локаций</p>
+            </div>
+            <div class="price_section_card_body">
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Длительность — 4 часа</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Исходники — До 500 штук</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Ретушь — 50 фото</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Аренда фотостудии — Бесплатно</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Визажист — Make-Up, Укладка</h2>
+              </div>
+              <div class="price_section_card_body_text">
+                <img src="./img/text.svg" />
+                <h2>Предварительный подбор образов — До 8 образов</h2>
+              </div>
+            </div>
+            <div class="price_section_card_additional_text">
+              <h4>Помощь в позировании</h4>
+              <div class="price_section_card_additional_text_btn_container">
+                <div class="price_section_card_additional_text_btn">
+                  <h2>Дополнительная ретушь фото — 1 шт. / 250 ₽</h2>
+                </div>
+              </div>
+            </div>
+            <button class="btn">Забронировать</button>
+            <div class="price_section_card_ball"></div>
+            <div class="price_section_card_ball2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Text sections 2  -->
+    <section class="text_section text_section_other_bg">
+      <div class="container">
+        <h2>Фотоискусство в тренде. Любая фотоссесия ваша история</h2>
+        <div class="text_section_container" id="text_section_other_bg">
+          <p class="text_section_line_clamp">
+            Воплотите мечту с нашей фотостудией и приобретите красивые,
+            уникальные, качественные фотографии, выбрав один из наших залов. А
+            их, -на секундочку, -аж семь штук. Каждый наш зал оборудован
+            интерьером и профессиональным оборудованием, и подойдет для любой
+            фотоссесии, а мы
+          </p>
+          <div id="text_section_addition_info" id="text_section_addition">
+            <p class="text_section_line_clamp">
+              хотим рассказать вам о все подробнее. Какие идеи можно воплотить?
+              • Фотоссесия Love Story Мечтаете показать всему миру вашу историю
+              создания любви или хранить снимки в памятном альбоме, то это
+              фотоссесия отлично подойдет вам.
+            </p>
+
+            <p class="text_section_line_clamp">
+              Расскажите вашу историю с любимым человеком в фотографиях в
+              необычном месте. • Семейная фотоссесия Семья — это самое главное в
+              жизни любого человека. Хотите повесить фотографии в вашем уютном
+              доме, смотреть на них и испытывать прилив нежности, значит
+              семейная фотоссесия в нашей фотостудии станет отличным вариантом.
+              ...
+            </p>
+            <p class="text_section_line_clamp">
+              • Фотоссесия для беременных девушек Желаете сохранить воспоминания
+              о прекрасном времени в жизни каждой женщины? Наши локации помогут
+              вам организовать и воссоздать в фотографиях любовь матери и еще не
+              родившегося ребенка.
+            </p>
+            <p class="text_section_line_clamp">
+              • Фотоссесия «Деловой стиль». Вы не из тех, кто любит яркие
+              чувства, эмоции и считаете себя сдержанным. Вам нужны фотографии,
+              где вы раскроетесь как профессионал, произведете впечатление как
+              деловой человек. Эта фотоссесия станет вашим правильным решением.
+              • Фотоссесия для девушек и парней. Хочешь стать кем-то другим?
+              Или, наоборот, показать свое «я»? Фотоссесия для девушек или
+              парней поможет воплотить любые идеи. Помимо вышеперечисленного
+              есть и другие стили фотоссесий. Вы самостоятельно выбираете, а
+              наши фотозалы помогают вам и вдохновляют.
+            </p>
+          </div>
+        </div>
+        <div class="text_section_button" id="text_section_other_btn">
+          <h4>Подробнее</h4>
+          <svg
+            width="25"
+            height="14"
+            viewBox="0 0 25 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23 2L13.2338 11.6984C12.8288 12.1005 12.1721 12.1005 11.7671 11.6984L2 2"
+              stroke="#E97522"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!-- Подарочный сертификат на фотосессию -->
+
+    <section class="gift_section">
+      <div class="container">
+        <h2 class="section_title">Подарочный сертификат на фотосессию</h2>
+        <div class="gift_section_parent_container">
+          <div class="gift_section_container">
+            <div class="gift_section_container_right">
+              <h3
+                data-aos="fade-up"
+                data-aos-anchor=".gift_section_parent_container"
+              >
+                СЕРТИФИКАТ НА ФОТОСЕССИЮ
+              </h3>
+              <h2
+                data-aos="fade-right"
+                data-aos-anchor=".gift_section_parent_container"
+                data-aos-delay="50"
+                class="gift_section_container_right_main_title"
+              >
+                Это подарок, который западает в душу
+              </h2>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="400"
+                data-aos-anchor=".gift_section_container_right_main_title"
+                class="gift_section_container_right_text"
+              >
+                <img src="./img/tick.svg" />
+                <h2>Креативное оформление</h2>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="400"
+                data-aos-anchor=".gift_section_container_right_main_title"
+                data-aos-delay="100"
+                class="gift_section_container_right_text"
+              >
+                <img src="./img/tick.svg" />
+                <h2>Открытый календарь</h2>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-offset="400"
+                data-aos-anchor=".gift_section_container_right_main_title"
+                data-aos-delay="150"
+                class="gift_section_container_right_text"
+              >
+                <img src="./img/tick.svg" />
+                <h2>Всё включено</h2>
+              </div>
+            </div>
+            <div class="gift_section_container_left">
+              <img
+                data-aos="fade-left"
+                data-aos-anchor=".gift_section_parent_container"
+                src="./img/gift.svg"
+                class="gift_section_container_left_trigger_img"
+              />
+              <h2
+                data-aos="fade-up"
+                data-aos-offset="500"
+                data-aos-delay="50"
+                data-aos-anchor=".gift_section_container_left_trigger_img"
+              >
+                Срок действия сертификата: 2 месяца со дня приобретения.
+              </h2>
+              <button
+                data-aos="fade-up"
+                data-aos-offset="500"
+                data-aos-delay="100"
+                data-aos-anchor=".gift_section_container_left_trigger_img"
+                class="btn"
+              >
+                Приобрести
+              </button>
+              <img
+                src="./img/Line 9.png"
+                class="gift_section_container_left_img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comment Section -->
+
+    <section class="comments_section">
+      <div class="container">
+        <h2 class="section_title">Отзывы</h2>
+
+        <div class="comments_section_swiper swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-slide_image_container">
+                <img src="./img/comment.webp" />
+                <div class="image_sloy"></div>
+              </div>
+              <div class="comments_section_swiper_text_container">
+                <h2>Мария</h2>
+                <p>
+                  Съешь еще этих мягких французских булок, да выпей чаю. Съешь
+                  еще этих мягких французских булок, да выпей чаю. Съешь еще
+                  этих мягких французских булок, да выпей чаю.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide_image_container">
+                <img src="./img/comment2.jpg" />
+                <div class="image_sloy"></div>
+              </div>
+              <div class="comments_section_swiper_text_container">
+                <h2>Сергей</h2>
+                <p>
+                  Съешь еще этих мягких французских булок, да выпей чаю. Съешь
+                  еще этих мягких французских булок, да выпей чаю. Съешь еще
+                  этих мягких французских булок, да выпей чаю.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide_image_container">
+                <img src="./img/image 827.png" />
+                <div class="image_sloy"></div>
+              </div>
+              <div class="comments_section_swiper_text_container">
+                <h2>Руслан</h2>
+                <p>
+                  Съешь еще этих мягких французских булок, да выпей чаю. Съешь
+                  еще этих мягких французских булок, да выпей чаю. Съешь еще
+                  этих мягких французских булок, да выпей чаю. Руслан еще этих
+                  мягких французских булок, да выпей чаю. Съешь еще этих мягких
+                  французских булок, да выпей чаю.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <div id="mapSection"></div>
+      </div>
+    </section>
+
+    <!-- Map for foto studio -->
+    <section id="contact" class="map_section">
+      <div class="container">
+        <div class="map_section_container">
+          <div class="map_section_map" id="map"></div>
+          <div class="map_section_right_content">
+            <form class="map_section_right_content_form">
+              <h2>Форма обратной связи</h2>
+
+              <div class="map_section_right_content_form_content">
+                <label for="name">Имя</label>
+                <input type="text" id="name" placeholder="Введите ваше имя" />
+              </div>
+              <div class="map_section_right_content_form_content">
+                <label for="email">E-mail</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Введите ваш E-mail"
+                />
+              </div>
+              <div class="map_section_right_content_form_content">
+                <label for="phone">Телефон</label>
+                <input
+                  type="text"
+                  id="phone"
+                  placeholder="Введите ваше Телефон"
+                />
+              </div>
+
+              <button class="btn">Отправить</button>
+              <p>
+                Нажимая кнопку «Отправить», вы даете согласие на обработку
+                персональных данных и соглашаетесь с политикой
+                конфиденциальности
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer_container">
+          <a href="#indtroduction">
+            <img src="./img/logo.svg" />
+          </a>
+
+          <ul>
+            <li>
+              <a href="#">Портфолио</a>
+            </li>
+            <li>
+              <a href="#">Виды работ</a>
+            </li>
+            <li>
+              <a href="#">О фотостудии</a>
+            </li>
+            <li>
+              <a href="#">Услуги и цены</a>
+            </li>
+            <li>
+              <a href="#">Отзывы</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div class="footer_social">
+          <h2>Наши социцальные сети:</h2>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-solid fa-paper-plane"></i>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=en_US"
+      type="text/javascript"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/gsap.js"></script>
+    <script src="./js/simplejs.js"></script>
+  </body>
+</html>
